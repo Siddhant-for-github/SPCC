@@ -1,0 +1,9 @@
+MACRO SUM &A,&B,&C
+ L  R1,&A
+ A  R1,&B
+ ST R1,&C
+MEND
+START
+SUM X,Y,Z
+ L  R2,Z
+END
